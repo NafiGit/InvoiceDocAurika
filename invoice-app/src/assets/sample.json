@@ -1,0 +1,92 @@
+[
+    {
+        "invoiceNo": "INV-001",
+        "invoiceDetails": "Sample Invoice 1",
+        "invoiceDate": "2023-05-01",
+        "orderNo": "ORD-001",
+        "orderDate": "2023-04-30",
+        "sellerDetails": {
+            "name": "ABC Company",
+            "address": "123 Main St, City, Country",
+            "panNo": "ABCDE1234F",
+            "gstNo": "12ABCDE1234F1Z5"
+        },
+        "billingDetails": {
+            "name": "John Doe",
+            "address": "456 Elm St, City, Country",
+            "stateCode": "01"
+        },
+        "shippingDetails": {
+            "name": "John Doe",
+            "address": "456 Elm St, City, Country",
+            "stateCode": "01"
+        },
+        "placeOfSupply": "State 1",
+        "placeOfDelivery": "State 1",
+        "items": [
+            {
+                "description": "Product A",
+                "unitPrice": 100,
+                "quantity": 2,
+                "discount": 0
+            },
+            {
+                "description": "Product B",
+                "unitPrice": 50,
+                "quantity": 1,
+                "discount": 5
+            }
+        ],
+        "bankDetails": {
+            "bankName": "XYZ Bank",
+            "accountNo": "1234567890",
+            "ifscCode": "XYZB0001234",
+            "branch": "Main Branch"
+        }
+    },
+    {
+        "invoiceNo": "INV-002",
+        "invoiceDetails": "Sample Invoice 2",
+        "invoiceDate": "2023-05-02",
+        "orderNo": "ORD-002",
+        "orderDate": "2023-05-01",
+        "sellerDetails": {
+            "name": "XYZ Corporation",
+            "address": "789 Oak St, City, Country",
+            "panNo": "XYZAB5678G",
+            "gstNo": "27XYZAB5678G1Z3"
+        },
+        "billingDetails": {
+            "name": "Jane Smith",
+            "address": "101 Pine St, City, Country",
+            "stateCode": "02"
+        },
+        "shippingDetails": {
+            "name": "Jane Smith",
+            "address": "101 Pine St, City, Country",
+            "stateCode": "02"
+        },
+        "placeOfSupply": "State 2",
+        "placeOfDelivery": "State 2",
+        "items": [
+            {
+                "description": "Service X",
+                "unitPrice": 200,
+                "quantity": 1,
+                "discount": 10
+            },
+            {
+                "description": "Product Y",
+                "unitPrice": 75,
+                "quantity": 3,
+                "discount": 0
+            }
+        ],
+        "bankDetails": {
+            "bankName": "ABC Bank",
+            "accountNo": "0987654321",
+            "ifscCode": "ABCB0009876",
+            "branch": "City Branch"
+        }
+    }
+]
